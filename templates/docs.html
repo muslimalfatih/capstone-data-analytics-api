@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capstone API Data Analytics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .container--docs {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .code p {
+            margin-bottom: 8px;
+        }
+        .code pre {
+            padding: 10px 20px;
+            background-color: #f6f8fa;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .mt-25 {
+            margin-top: 25px;
+        }
+    </style>
+  </head>
+  <body>
+  <section class="container container--docs">
+    <div class="row">
+        <div class="col">
+            <h1>Capstone Data Analytics API</h1>
+            <hr/>
+            <p>This project aims to create a simple API to fetch Chinook Dataset.</p>
+        </div>
+    </div>
+    <div class="row mt-25">
+        <div class="col">
+            <h3>Endpoints</h3>
+            <hr/>
+            <div class="code">
+                <p>List of Albums</p>
+                <pre><code>GET /albums</code></pre>
+            </div>
+            <br>
+            <div class="code">
+                <p>List of Countries</p>
+                <pre><code>GET /country</code></pre>
+            </>
+            <br>
+            <div class="code">
+                <p>Top selling Albums by Country</p>
+                <pre><code>GET /albums/top/:country</code></pre>
+            </>
+            <br>
+            <div class="code">
+                <p>Total amount invoice by Year</p>
+                <pre>GET /invoices/total/:year</pre>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>How to use</h3>
+            <hr/>
+            <div class="code">
+                <p>Get all albums</p>
+                <a href="https://capstone-da-api.herokuapp.com/albums">https://capstone-da-api.herokuapp.com/albums</a>
+            </div>
+            <br>
+            <div class="code">
+                <p>Get top selling album in Germany</p>
+                <a href="https://capstone-da-api.herokuapp.com/albums/top/germany">https://capstone-da-api.herokuapp.com/albums/top/germany</a>
+            </div>
+            <br>
+            <div class="code">
+                <p>Get all countries</p>
+                <a href="https://capstone-da-api.herokuapp.com/country">https://capstone-da-api.herokuapp.com/country</a>
+            </div>
+            <br>
+            <div class="code">
+                <p>Get total amount of invoices in 2010</p>
+                <a href="https://capstone-da-api.herokuapp.com/invoices/total/2010">https://capstone-da-api.herokuapp.com/invoices/total/2010</a>
+            </div>
+            <br>
+        </div>
+    </div>
+  </section>
+  </body>
+</html>
