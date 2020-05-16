@@ -14,7 +14,11 @@ This project aims to create a simple API to fetch Chinook Dataset..
 **Total amount invoice by Year**
 > `GET /invoices/total/<year>`
 
+**API Docs**
+> `GET /docs`
+
 ## How to use
+
 Get all albums
 [https://capstone-da-api.herokuapp.com/albums](https://capstone-da-api.herokuapp.com/albums)
 
@@ -27,3 +31,6 @@ Get all countries
 
 Get total amount of invoices in 2010
 [https://capstone-da-api.herokuapp.com/invoices/total/2010](https://capstone-da-api.herokuapp.com/invoices/total/2010)
+
+API Docs
+[https://capstone-da-api.herokuapp.com/docs](https://capstone-da-api.herokuapp.com/docs)
