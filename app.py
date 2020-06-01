@@ -100,9 +100,6 @@ def total_invoices(year):
     return (res)
 
 @app.route('/docs')
-def get_docs():
-    return template.render()
-
 @app.route('/')
 def index():
     return template.render()

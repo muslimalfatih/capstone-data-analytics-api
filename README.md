@@ -1,4 +1,4 @@
-# Capstone Data Analytics API
+# Chinook Data Analytics API
 This project aims to create a simple API to fetch Chinook Dataset..
 
 ## Endpoints
